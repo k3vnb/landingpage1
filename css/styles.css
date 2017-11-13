@@ -1,0 +1,60 @@
+
+body {
+  /*Full Screen Image*/
+  background: url(../img/background.jpg) no-repeat center center fixed;
+  background-size: cover;
+};
+.container{
+  position: relative;
+}
+.sectionOne {
+  /*height: 75px;*/
+  position: relative;
+  display: inline-flex;
+  /*float: right;*/
+  box-sizing: border-box;
+}
+.sectionOneLinks{
+  display: inline-flex;
+  /*margin-left: 1000px;*/
+}
+.floatright{
+  position: relative;
+  display: inline-flex;
+  float: right;
+}
+.smallLogo {
+  background-color: rgba(240, 248, 255, 0.58);
+  border: 3px white;
+  border-radius: 150px;
+  height: 75px;
+  margin-right: 100%;
+  float: left;
+}
+.sectionOneSignIn {
+  border: 2px solid white;
+  height: 35px;
+  align-items: center;
+  display: flex;
+  margin-top: 21px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.sectionOneSignUp{
+  border: 2px solid #f0c027;
+  height: 35px;
+  align-items: center;
+  display: flex;
+  margin-top: 21px;
+  border-radius: 5px;
+  background-color: #f0c027;
+  color: black;
+}
+.sectionOne .sectionOneSignUp h3 {
+  color: black;
+}
+
+.sectionOne H3 {
+  color: white;
+  padding: 10px;
+}
