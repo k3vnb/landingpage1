@@ -75,9 +75,9 @@ img.sectionTwoPic {
   margin-left: auto;
   margin-right: auto;
 }
-.sectionTwoImg {
+/*.sectionTwoImg {
   align-items: center;
-}
+}*/
 .sectionTwo h1 {
   font-size: 72px;
   color: white;
@@ -131,9 +131,35 @@ img.sectionTwoPic {
     margin-left: 15px;
     padding: 10px;
 }
+.sectionFour{
+  display: inline-flex;
+  position: absolute;
+   left: 50%;
+   margin-right: -50%;
+   transform: translate(-50%, -50%)
+  /*height: 200px;*/
+}
+.sectionFourImgs{
+  margin-left: auto;
+  margin-right: auto;
+  /*align-items: center;*/
+
+  /*width: 100%;*/
+}
+
+.linkbuttons {
+  height: 60px;
+  margin-top: 250px;
+  background-color: rgba(255, 255, 255, 0.21);
+  border-radius: 5px;
+  /*display: block;*/
+  /*align-content: center;*/
+
+}
+
 .sectionFourWords{
   color: white;
   text-align: center;
   font-size: 20px;
-  margin-top: 350px;
+  margin-top: 300px;
 }
